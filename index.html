@@ -60,7 +60,6 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((instance) => {
           unityInstance = instance;
-          unityInstance.SetFullscreen(1);
           unityInstance.Module.WebXR.toggleAR();
           loadingBar.style.display = "none";
           if (fullscreenButton)
